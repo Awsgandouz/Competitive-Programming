@@ -10,3 +10,4 @@ long long binpow(long long a, long long b) {
     return res;
 }
 
+
