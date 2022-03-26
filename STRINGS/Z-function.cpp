@@ -26,7 +26,7 @@ void getZarr(string str, int Z[])
             L = R = i;
             while (R<n && str[R-L] == str[R])
                 R++;
-            Z[i] = R-L;
+            Z[i] = R-L; 
             R--;
         }
         else
