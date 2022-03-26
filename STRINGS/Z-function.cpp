@@ -1,3 +1,4 @@
+int cnt = 0;
 void getZarr(string str, int Z[]);
  
 // prints all occurrences of pattern in text using Z algo
@@ -10,7 +11,7 @@ void search(string text, string pattern)
     for (int i = 0; i < l; ++i)
     {
         if (Z[i] == pattern.length())
-            cout << "Pattern found at index " << i - pattern.length() -1 << endl;
+            cnt++;
     }
 }
  
